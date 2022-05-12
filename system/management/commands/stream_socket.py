@@ -12,7 +12,7 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         while True:
-            sleep(3)
+            sleep(1)
             group_name = settings.STREAM_SOCKET_GROUP_NAME
             channel_layer = get_channel_layer()
             cpu_percent = psutil.cpu_percent()
