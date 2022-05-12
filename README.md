@@ -1,4 +1,4 @@
-# system-monitor
+# System Monitor
 Monitor your system with `websocket`
 
 ----
